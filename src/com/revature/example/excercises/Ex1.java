@@ -2,7 +2,7 @@ package com.revature.example.excercises;
 
 public class Ex1 {
     public static void main(String[] args) {
-        String line = "ABCDEFGHIJKLMNOPQRSTUCWXYZ";
+        String line = "ABCD";
         for(int i =0; i< line.length();i++ ){
             for(int j = 0; j < line.length()-i; j++){
                 System.out.print(line.charAt(j));
